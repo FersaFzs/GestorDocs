@@ -1,0 +1,60 @@
+QMainWindow {
+    background-color: #F5F5F5;
+}
+QComboBox {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    min-height: 40px;
+    min-width: 300px;
+}
+QComboBox::drop-down {
+    border: none;
+}
+QLabel {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;  /* Negrita para títulos */
+}
+QLineEdit {
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    padding: 8px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    min-height: 40px;
+    min-width: 400px;
+    font-weight: normal;  /* Aseguramos que no sea negrita */
+}
+QPushButton {
+    background-color: #007AFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 16px;
+    min-height: 40px;
+    min-width: 150px;
+    font-weight: bold;
+}
+QPushButton:disabled {
+    background-color: #CCCCCC;
+}
+QPushButton:hover:!disabled {
+    background-color: #005BBB;
+}
+
+QScrollBar:vertical {
+    background: #F5F5F5;
+    width: 10px;
+}
+QScrollBar::handle:vertical {
+    background: #CCCCCC;
+    border-radius: 5px;
+}
